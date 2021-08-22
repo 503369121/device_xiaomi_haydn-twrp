@@ -142,3 +142,7 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
+
+# For MIUI 12.x Android 11 decryption - uncomment these two lines if your build/core/Makefile has not been patched to do it
+BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \
+    --prop com.android.build.boot.security_patch:$(PLATFORM_SECURITY_PATCH)
