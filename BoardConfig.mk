@@ -46,6 +46,18 @@ TARGET_OTA_ASSERT_DEVICE := haydn
 AB_OTA_UPDATER := true
 TW_INCLUDE_REPACKTOOLS := true
 
+AB_OTA_PARTITIONS := \
+    boot \
+    dtbo \
+    odm \
+    product \
+    system \
+    system_ext \
+    vbmeta \
+    vbmeta_system \
+    vendor \
+    vendor_boot
+    
 # Bootloader
 PRODUCT_PLATFORM := lahaina
 TARGET_BOOTLOADER_BOARD_NAME := lahaina
