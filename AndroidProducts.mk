@@ -18,3 +18,7 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_haydn.mk
+     
+COMMON_LUNCH_CHOICES := omni_haydn-eng
+COMMON_LUNCH_CHOICES := omni_haydn-userdebug
+     
