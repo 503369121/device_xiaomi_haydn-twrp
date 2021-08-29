@@ -139,10 +139,7 @@ else
 
 	temp_mount "$TEMPVEN" "vendor" "$venpath"
 
-	load_module "aw8697"
-	load_module "focaltech_fts_zf"
-	load_module "texfat"
-	load_module "tntfs"
+	load_module "focaltech_touch"
 
 	finish
 fi
