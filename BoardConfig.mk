@@ -179,6 +179,8 @@ TW_INCLUDE_RESETPROP := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_NO_CPU_TEMP := true
 TW_NO_EXFAT_FUSE := true
+TW_NO_SCREEN_BLANK := true
+TW_EXCLUDE_APEX := true
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
 RECOVERY_LIBRARY_SOURCE_FILES += \
